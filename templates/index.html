@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Notes Generator</title>
+</head>
+<body>
+
+    <h1>AI Notes & Summary Generator</h1>
+
+    <form method="POST" enctype="multipart/form-data">
+        <textarea name="text" placeholder="Enter text"></textarea>
+        <br><br>
+        <input type="file" name="pdf" accept=".pdf">
+        <br><br>
+        <button type="submit">Generate Notes</button>
+    </form>
+
+    <h2>Output:</h2>
+    <pre>{{ summary }}</pre>
+
+</body>
+</html>
